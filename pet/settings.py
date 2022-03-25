@@ -61,13 +61,13 @@ DATABASES = {
 
         'ENGINE': 'django.db.backends.postgresql',
 
-        'NAME': 'stagram',
+        'NAME': 'd8r32c2di8o6t9',
 
-        'USER': 'postgres',
+        'USER': 'xdiytujorlqlmy',
 
-        'PASSWORD': 'postgres',
+        'PASSWORD': 'd7f69218d47bdd7033a6c26bb18b8a9fd2fe4216ab2b9c906c5edd1b7cacd800',
 
-        'HOST': '127.0.0.1',
+        'HOST': 'ec2-63-32-248-14.eu-west-1.compute.amazonaws.com',
 
         'PORT': '5432',
 
