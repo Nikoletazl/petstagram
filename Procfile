@@ -1,2 +1,1 @@
-web: gunicorn --pythonpath pet pet.wsgi
-release: python pet/manage.py migrate
+web: python pet/manage.py runserver 0.0.0.0:$PORT --noreload
