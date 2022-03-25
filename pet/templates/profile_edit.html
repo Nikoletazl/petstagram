@@ -1,14 +1,13 @@
-{% extends 'base/base.html' %}
+{% extends 'base/base/base.html' %}
 {% block page_content %}
-    <h1 class="text-center">Edit Your Pet Info</h1>
+    <h1 class="text-center">Edit Your Profile</h1>
     <div class="row">
         <div class="col-lg-3"></div>
         <div class="col-lg-6">
-            <form method="post" action="{% url 'edit pet' pet.pk %}">
+            <form method="post" action="{% url 'edit profile' %}">
 
-                {{ form }}
+               {{ form }}
                 {% csrf_token %}
-
                 <button class="btn btn-primary mt-2" type="submit">Edit</button>
             </form>
         </div>
