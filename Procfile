@@ -1,1 +1,0 @@
-web: python pet/manage.py runserver 0.0.0.0:$PORT --noreload
