@@ -1,9 +1,8 @@
 
 from django.urls import path
 
-from pet.pet.views import HomeView, DashboardView, ProfileDetailsView, PetPhotoDetailsView, CreatePetPhotoView, \
-    CreatePetView, EditPetView, DeletePetView, EditPetPhotoView
-
+from pet.pet.views import HomeView, DashboardView, PetPhotoDetailsView, CreatePetPhotoView, EditPetPhotoView, \
+    CreatePetView, EditPetView, DeletePetView
 
 urlpatterns = [
     path('', HomeView.as_view(), name='home page'),

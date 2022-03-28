@@ -1,7 +1,7 @@
 from django.urls import path, reverse_lazy
 from django.views.generic import RedirectView
 
-from pet.accounts.views import UserLoginView, UserRegisterView, ChangeUserPasswordView
+from pet.accounts.views import UserLoginView, ChangeUserPasswordView, UserRegisterView
 from pet.pet.views import ProfileDetailsView
 
 urlpatterns = (

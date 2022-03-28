@@ -6,7 +6,6 @@ from django.db import models
 
 from pet.pet.validators import validator_only_letters, validator_max_size
 
-
 UserModel = get_user_model()
 
 

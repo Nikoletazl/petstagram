@@ -39,7 +39,7 @@ ROOT_URLCONF = 'pet.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates']
+        'DIRS': [BASE_DIR / 'pet/templates']
         ,
         'APP_DIRS': True,
         'OPTIONS': {
@@ -61,13 +61,13 @@ DATABASES = {
 
         'ENGINE': 'django.db.backends.postgresql',
 
-        'NAME': 'd8r32c2di8o6t9',
+        'NAME': 'd2onmpplj7t0qa',
 
-        'USER': 'xdiytujorlqlmy',
+        'USER': 'cxkwopvzksgcwh',
 
-        'PASSWORD': 'd7f69218d47bdd7033a6c26bb18b8a9fd2fe4216ab2b9c906c5edd1b7cacd800',
+        'PASSWORD': '796b338440cfcc2f926243900cf2413145ac9fa27e3d66481688dfc1a6017a86',
 
-        'HOST': 'ec2-63-32-248-14.eu-west-1.compute.amazonaws.com',
+        'HOST': 'ec2-63-35-156-160.eu-west-1.compute.amazonaws.com',
 
         'PORT': '5432',
 

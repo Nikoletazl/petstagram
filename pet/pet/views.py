@@ -4,8 +4,7 @@ from django.urls import reverse_lazy
 from django.views.generic import TemplateView, ListView, CreateView, UpdateView, DeleteView, DetailView
 
 from pet.common.view_mixins import RedirectToDashboard
-from pet.pet.forms import CreateProfileForm, EditProfileForm, DeleteProfileForm, CreatePetForm, EditPetForm, \
-    DeletePetForm, AddPetPhoto
+from pet.pet.forms import CreatePetForm, EditPetForm, DeletePetForm
 from pet.pet.models import Profile, PetPhoto, Pet
 
 

@@ -2,10 +2,11 @@ from django.contrib.auth import models as auth_models
 from django.contrib.auth.models import User
 from django.db import models
 
+
+# Create your models here.
 from pet.accounts.managers import PetstagramUserManager
 
 
-# Create your models here.
 class PetstagramUser(auth_models.AbstractBaseUser, auth_models.PermissionsMixin):
     USERNAME_MAX_LENGTH = 25
 
