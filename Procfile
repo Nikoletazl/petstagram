@@ -1,2 +1,2 @@
-web: gunicorn --pythonpath pet pet.wsgi
-release: python pet/manage.py migrate
+web: gunicorn --pythonpath  pet.wsgi
+release: python manage.py migrate
