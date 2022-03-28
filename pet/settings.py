@@ -1,6 +1,8 @@
 import os
 from pathlib import Path
 
+from django.contrib import staticfiles
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-6_u!2yx_3ou548#3@j$^=f)xemv6w$0xlma0*_=qp+m$#&he9s'
@@ -102,12 +104,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
-STATIC_ROOT = os.path.join(BASE_DIR, 'pet/../static')
+STATIC_ROOT = os.path.join(BASE_DIR, '/staticfiles')
 STATIC_URL = '/static/'
 
 # Extra places for collectstatic to find static files.
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, '/pet/../static'),
+    os.path.join(BASE_DIR, '/static'),
 )
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
