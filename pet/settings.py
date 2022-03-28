@@ -1,7 +1,6 @@
 import os
 from pathlib import Path
 
-from django.contrib import staticfiles
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
